@@ -1,0 +1,43 @@
+.address-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  .contact-banner{
+
+      position: relative;
+      background: url('../assets/contact.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px; /* Adjust the height as needed */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  .address-info h2{
+    color: #b8490e;
+  }
+  .address-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+  
+  .address-content {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .address-info {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }

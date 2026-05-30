@@ -1,0 +1,88 @@
+/* Container for the whole page */
+.booking-page-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Left, middle, right layout */
+  height: 100vh;
+}
+
+/* Left and right sections */
+.booking-left-section,
+.booking-right-section {
+  background-color: white;
+  height: 100%;
+}
+
+/* Middle section */
+.booking-middle-section {
+  background-color: white;
+  padding: 20px;
+  overflow-y: auto; /* In case content exceeds the height */
+}
+
+/* Existing form styles */
+.booking-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.booking-form-group label {
+  color: #63ab45;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.booking-form-group input,
+.booking-form-group select,
+.booking-form-group textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.booking-button {
+  padding: 10px 20px;
+  background-color: #63ab45;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all ease-in-out ;
+}
+
+.booking-button:hover {
+  letter-spacing: 0.05em;
+    background-color: #63cb48;
+    box-shadow: 0 0 10px #b8490e;
+}
+
+.booking-trek-price {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.booking-liability-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,92 @@
+  .trek-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: 3px solid grey;
+  }
+  
+  .goa-banner{
+      position: relative;
+      background: url('../assets/goa.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px; /* Adjust the height as needed */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .himachal-banner{
+      position: relative;
+      background: url('../assets/hm.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px; /* Adjust the height as needed */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .mh-banner{
+      position: relative;
+      background: url('../assets/mh.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px; /* Adjust the height as needed */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .kerala-banner{
+      position: relative;
+      background: url('../assets/kerala.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px; /* Adjust the height as needed */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ladakh-banner{
+      position: relative;
+      background: url('../assets/img1.jpg') no-repeat center center;
+      background-size: cover;
+      height: 500px; /* Adjust the height as needed */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .trek-section img:hover {
+    transform: scale(1.02);
+  }
+  
+  .trek-image img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+
+  }
+  
+  .trek-details {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .trek-details h2 {
+    color: #b8490e;
+    margin-bottom: 10px;
+  }
+  
+  .trek-details p {
+    font-family: serif;
+    color: #555;
+    line-height: 1.6;
+    font-size: 30px;
+  }
+  

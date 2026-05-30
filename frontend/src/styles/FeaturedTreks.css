@@ -1,0 +1,83 @@
+/* Featured Treks Section */
+.featured-treks {
+  padding: 60px 20px;
+  background-color: #f0f4f8; /* Soft background color for the section */
+  text-align: center;
+}
+
+.section-title {
+  font-family: 'Roboto', sans-serif; /* Modern font for the title */
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #ff6347; /* Tomato color for a vibrant look */
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.featured-treks:hover .section-title {
+  color: #ff4500; /* Slightly darker color on hover */
+}
+
+.treks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Trek Card */
+.trek-card {
+  position: relative;
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease, box-shadow 0.6s ease; /* Slower zoom effect */
+  cursor: pointer;
+  width: 100%;
+  max-width: 350px;
+}
+
+.trek-card:hover {
+  transform: scale(1.1); /* Slightly enlarged effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.trek-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease; /* Slower zoom effect for image */
+}
+
+.trek-card:hover .trek-image {
+  transform: scale(1.1); /* Zoom effect on image */
+}
+
+/* Details */
+.trek-details {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background for details */
+}
+
+.trek-name {
+  font-family: 'Arial', sans-serif; /* Clean, readable font */
+  font-size: 1.8rem;
+  color: #28a745; /* Green color for trek names */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.trek-location {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.trek-difficulty {
+  font-size: 1rem;
+  color: #888;
+}
